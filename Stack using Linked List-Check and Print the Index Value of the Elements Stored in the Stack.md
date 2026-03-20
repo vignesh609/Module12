@@ -31,8 +31,20 @@ To write a Python program that:
    - For each element in the stack, print the index and the value at that index.
 
 ## 📝 Program
-Add Code here
-
+~~~
+stack = []
+stack.append(5)
+stack.append(10)
+stack.append(15)
+stack.append(20)
+print("Stack contents with index values:")
+for index, value in enumerate(stack):
+    print(f"Index {index} → Value: {value}")
+~~~
 ## Sample Input & Output
 
+![Screenshot 2025-05-23 120648](https://github.com/user-attachments/assets/dc045f4d-b5f2-4260-a1a0-5f952826ad27)
+
+
 ## Result
+Thus the program has been executed sucessfully.
